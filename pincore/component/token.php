@@ -31,7 +31,7 @@ class Token
         self::$app = $package_name;
     }
 
-    public static function __init()
+    public static function __constructStatic()
     {
         TokenModel::delete_all_expired();
     }

@@ -53,7 +53,7 @@ class Date
     /**
      * Set value default timezone if empty
      */
-    public static function __init()
+    public static function __constructStatic()
     {
         $timezone = ini_get('date.timezone');
         if (empty($timezone) || !date_default_timezone_get())

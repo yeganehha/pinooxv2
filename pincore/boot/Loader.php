@@ -67,18 +67,4 @@ class Loader
     {
         return self::$listAllClass;
     }
-
-    private static function loadMagicsMethodsTrait($className)
-    {
-        if (!class_exists($className))
-            return;
-
-        $uses = class_uses($className);
-        $uses = !empty($uses) ? $uses : [];
-        if (in_array("pinoox\\component\\MagicTrait", $uses)) {
-            if (method_exists($className, "__init")) {
-                call_user_func(array($className, "__init"));
-            }
-        }
-    }
 }

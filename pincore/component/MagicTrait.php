@@ -13,5 +13,5 @@ namespace pinoox\component;
 
 trait MagicTrait
 {
-    public static function __init(){}
+    public static function __constructStatic(){}
 }

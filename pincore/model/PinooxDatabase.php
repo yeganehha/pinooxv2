@@ -28,7 +28,7 @@ class PinooxDatabase extends Database
 
     private static $config = [];
 
-    public static function __init()
+    public static function __constructStatic()
     {
         self::$config = Config::get('~database');
         self::$db = new DB(

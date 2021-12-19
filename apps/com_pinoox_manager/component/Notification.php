@@ -24,7 +24,7 @@ class Notification
     private static $app;
     private static $action;
 
-    public static function __init()
+    public static function __constructStatic()
     {
         self::action();
         self::refresh();
