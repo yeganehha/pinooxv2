@@ -18,3 +18,7 @@ pinker
 # Node Js
 node_modules
 package-lock.json
+
+# composer 
+/vendor
+/composer.lock
