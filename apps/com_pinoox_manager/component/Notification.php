@@ -15,12 +15,10 @@ namespace pinoox\app\com_pinoox_manager\component;
 
 use pinoox\app\com_pinoox_manager\model\NotificationModel;
 use pinoox\component\HelperString;
-use pinoox\component\MagicTrait;
 use pinoox\component\Router;
 
 class Notification
 {
-    use MagicTrait;
     private static $app;
     private static $action;
 

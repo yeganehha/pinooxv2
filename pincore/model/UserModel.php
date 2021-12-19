@@ -14,7 +14,6 @@ namespace pinoox\model;
 
 use pinoox\component\User;
 use pinoox\component\Date;
-use pinoox\component\MagicTrait;
 use pinoox\component\Security;
 
 class UserModel extends PinooxDatabase
@@ -24,7 +23,6 @@ class UserModel extends PinooxDatabase
     const suspend = "suspend";
     const pending = "pending";
 
-    use MagicTrait;
 
     public static function checkApp($app = null)
     {

@@ -16,7 +16,7 @@ use pinoox\model\TokenModel;
 
 class Token
 {
-    use MagicTrait;
+
     public static $lifeTime = 86400;
     private static $app;
     private static $token_key = null;

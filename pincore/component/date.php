@@ -20,7 +20,7 @@ use Exception;
 
 class Date
 {
-    use MagicTrait;
+
 
     /**
      * Number of days 12 months a year in world calendar

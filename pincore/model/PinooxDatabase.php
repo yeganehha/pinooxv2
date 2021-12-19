@@ -19,7 +19,6 @@ use pinoox\component\source\Database;
 
 class PinooxDatabase extends Database
 {
-    use MagicTrait;
 
     const session = 'pincore_session';
     const user = 'pincore_user';
