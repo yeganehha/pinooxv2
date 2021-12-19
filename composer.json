@@ -15,12 +15,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-		"php": "^7.3|^8.0",
+		"php": "^7.3|^8.0"
 	},
     "autoload": {
+        "files" : [
+            "pincore/boot/functions.php"
+        ],
         "psr-4": {
             "pinoox\\": "pincore/",
-            "pinoox\\app\\": "apps/",
+            "pinoox\\app\\": "apps/"
         }
     }
 }
